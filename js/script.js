@@ -318,5 +318,5 @@ function newNote() {
 }
 
 if (db != null) {
-  document.addEventListener("load", loaded, false)
+  document.addEventListener("load", loaded(), false)
 }
